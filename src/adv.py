@@ -1,5 +1,6 @@
 from room import Room
 
+
 # Declare all the rooms
 
 room = {
@@ -20,6 +21,9 @@ to north. The smell of gold permeates the air."""),
 chamber! Sadly, it has already been completely emptied by
 earlier adventurers. The only exit is to the south."""),
 }
+
+for key, value in room.items():
+    print(f'{key}, \n {value}')
 
 
 # Link rooms together
